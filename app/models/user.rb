@@ -6,8 +6,5 @@ class User < ActiveRecord::Base
 
   has_many :carts
   has_many :orders
-
   belongs_to :current_cart, class_name: 'Cart'
-
-
 end
